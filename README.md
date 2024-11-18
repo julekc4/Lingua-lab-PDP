@@ -2,7 +2,7 @@
 
 ## LinguaLab (temporary name) is a simple web tool that lets users upload short audio or video files, get transcripts, translate text, and add voice-overs in different languages—all in one place, with no software needed.
 
-**Collaborators:** Please add yourself :) [Marta Haik](https://github.com/mhaik), [Ansar Shilibekov](https://github.com/An-0ther), [Filip Chmiel](https://github.com/FChmiel242238), [Zuzanna Gielec](https://github.com/ZuzannaGielec)
+**Collaborators:** Please add yourself :) [Marta Haik](https://github.com/mhaik), [Ansar Shilibekov](https://github.com/An-0ther), [Filip Chmiel](https://github.com/FChmiel242238), [Zuzanna Gielec](https://github.com/ZuzannaGielec) [Juliusz Ciążyński](https://github.com/julekc4)
 
 
 ### Key Purpose
