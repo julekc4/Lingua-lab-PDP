@@ -24,7 +24,3 @@ def tts(sentence,out_dir='output_de'):
             print(f"Error: {result.stderr}")
     except FileNotFoundError:
         print("The 'tts' command was not found. Make sure Coqui TTS is installed and added to your PATH.")
-
-
-sentence = "Ihr naht euch wieder, schwankende Gestalten, Die früh sich einst dem trüben Blick gezeigt. Versuch ich wohl, euch diesmal festzuhalten? Fühl ich mein Herz noch jenem Wahn geneigt? Ihr drängt euch zu! nun gut, so mögt ihr walten, Wie ihr aus Dunst und Nebel um mich steigt;"
-tts(sentence)

@@ -63,8 +63,8 @@ def compare_methods(audio_path, ground_truth, output_file): #accuracy check not 
         #f.write(f"Whisper - WER: {whisper_wer:.2f}, CER: {whisper_cer:.2f}\n")
 
 def main():
-    input_folder = "./speech_to_text/audio_files"  
-    output_folder = "./output"    
+    input_folder = "./project/speech_to_text/audio_files"  
+    output_folder = "./project/output"    
     output_file = os.path.join(output_folder, "transcription_results.txt")
 
     os.makedirs(output_folder, exist_ok=True)
