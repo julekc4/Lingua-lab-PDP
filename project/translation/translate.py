@@ -16,9 +16,9 @@ EOS_token = 1
 device = "cpu"
 MAX_LENGTH = 20
 
-encoder_fp = "E:/PDP/PDP-mds/project/translation/en-de_trained_model/EN-DE-Encoder.pt"
-decoder_fp = "E:/PDP/PDP-mds/project/translation/en-de_trained_model/EN-DE-Decoder.pt"
-lang_fp = "E:/PDP/PDP-mds/project/translation/en-de_trained_model/eng-ger.pkl"
+encoder_fp = "en-de_trained_model/EN-DE-Encoder.pt"
+decoder_fp = "en-de_trained_model/EN-DE-Decoder.pt"
+lang_fp = "en-de_trained_model/eng-ger.pkl"
 
 class EncoderRNN(nn.Module):
     def __init__(self, input_size, hidden_size, dropout_p=0.1):
@@ -211,6 +211,8 @@ def translate_custom(encoder, decoder, input_lang, output_lang, fp_in, fp_out):
     print('input =', sentence)
     print('output =', ' '.join(decoded_words))
     '''
+
+#download('punkt_tab')
 
 #MBART implementation
 def translate(fp_in, fp_out, lang):
