@@ -43,7 +43,8 @@ def calculate_accuracy(ground_truth, predicted): #not needed
     char_error_rate = cer(ground_truth, predicted)
     return word_error_rate, char_error_rate
 
-def compare_methods(audio_path, ground_truth, output_file): #accuracy check not used only in report
+def compare_methods(audio_path, ground_truth, output_file): #accuracy check not used only in report 
+    #uncomment the green lines in case of wanting to see the accuracy as well
     with open(output_file, "a") as f:
         #f.write(f"\nProcessing file: {audio_path}\n")
         #f.write("\nRunning Whisper...\n")
@@ -87,8 +88,6 @@ def main():
             file_path = preprocess_audio(wav_path)
             
             compare_methods(file_path, ground_truth, output_file)
-
-    #print(f"Processing completed. Results saved to {output_file}")
 
 if __name__ == "__main__":
     main()
